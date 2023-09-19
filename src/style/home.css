@@ -1,0 +1,28 @@
+/* Ocultar la barra de desplazamiento nativa */
+::-webkit-scrollbar {
+  width: 0.5em;
+  height: 0.5em;
+}
+
+::-webkit-scrollbar-track {
+  background: #fff;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #000;
+  border-radius: 10px;
+}
+
+/* Estilos adicionales para el cilindro */
+::-webkit-scrollbar-thumb:hover {
+  background: #444;
+}
+
+::-webkit-scrollbar-thumb:active {
+  background: #666;
+}
+
+::-webkit-scrollbar-corner {
+  background: #fff;
+}
